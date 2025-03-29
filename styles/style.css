@@ -69,6 +69,30 @@ header {
 }
 
 
+
+/* Call to action Section Style */
+
+.call-to-action {
+    width: 1140px;
+    margin: 130px auto;
+    background-image: url("../images/watch.png");
+}
+
+.call-to-action-container {
+    padding: 60px 64px;
+    background-image: url('../images/gradient1.png');
+}
+
+.call-to-action-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    /* padding: 60px 0 0 64px; */
+    margin-bottom: 24px;
+    width: 460px;
+}
+
+
 /* Footer Section Style */
 
 footer {
