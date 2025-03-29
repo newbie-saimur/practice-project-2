@@ -15,6 +15,7 @@
     padding: 20px 25px;
     border-radius: 5px;
     border: none;
+    transition: all 0.5s ease;
 }
 
 .btn-primary:hover {
@@ -30,6 +31,7 @@
     padding: 20px 25px;
     border-radius: 5px;
     border: none;
+    transition: all 0.5s ease;
 }
 
 .btn-secondary:hover {
@@ -126,6 +128,46 @@ header {
     font-size: 24px;
 }
 
+
+
+/* Plan Section Style */
+
+.plan-section {
+    width: 1140px;
+    margin: 130px auto;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan-item img {
+    width: 92px;
+    margin-bottom: 24px;
+}
+
+.plan-item h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan-item p {
+    font-size: 25px;
+    color: #444343;
+    font-weight: 400;
+}
 
 /* Call to action Section Style */
 
