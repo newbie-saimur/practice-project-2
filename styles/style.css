@@ -69,6 +69,63 @@ header {
 }
 
 
+/* Failure Section Style */
+
+.failure-section {
+    width: 1140px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failure-image img {
+    width: 450px;
+}
+
+.failure-content {
+    width: 415px;
+    margin-right: 50px;
+}
+
+.failure-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.failure-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.failure-list-item {
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.failure-list-item::before {
+    content: '\2713';
+    position: absolute;
+    left: -20px;
+    top: 0;
+    color: #16D887;
+    font-size: 24px;
+}
+
 
 /* Call to action Section Style */
 
